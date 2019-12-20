@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+#messagesList{
+    overflow-y:scroll;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-image: url("https://previews.123rf.com/images/stockgiu/stockgiu1808/stockgiu180811168/111973336-degraded-line-graphic-chat-bubble-message-background-vector-illustration.jpg");
+    width: 600px;
+    padding: 0 30px;
+}
+
+.message{
+    background-color: white;
+    line-height: 20px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: monospace;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
